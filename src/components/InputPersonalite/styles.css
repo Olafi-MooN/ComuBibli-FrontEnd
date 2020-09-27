@@ -1,0 +1,40 @@
+input {
+    width: 100%;
+    height: var(--value-height-input);
+    padding-left: 2rem;
+    outline: none;
+    border: none;
+}
+
+.inputPersonalite {
+    position: relative;
+}
+
+.inputPersonalite:focus-within::after {
+    content: '';
+    width: calc(100%);
+    height: 2px;
+    background-color: var(--color-text-realce);
+    position: absolute;
+    bottom: 0;
+    left: 0rem;
+    right: 0rem;
+}
+
+input[type="button"] {
+    min-width: 200px;
+    width: 100%;
+    background-color: var(--color-block-category);
+    text-align: center;
+    padding: 0;
+
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+    cursor: pointer;
+}
+
+img[src="/static/media/book.6a394870.svg"] {
+    max-width: 50px;
+    max-height: 50px;
+}

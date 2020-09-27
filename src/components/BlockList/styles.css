@@ -1,0 +1,48 @@
+.backgroundList2,
+.backgroundList {
+    background-color: var(--color-block-category);
+    display: grid;
+
+    grid-template-columns: 1.5fr 1fr 1fr 75px;
+    grid-template-rows: 1fr;
+
+    grid-gap: 20px;
+    align-items: center;
+    margin: 20px 0;
+
+    border-radius: 10px;
+    padding: 0 10px;
+    min-height: 70px;
+}
+
+.backgroundList2,
+.backgroundList li {
+    list-style: none;
+}
+
+.backgroundList .name {
+    padding-left: 20px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: center;
+    min-width: 100px;
+}
+
+.author,
+.ano {
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.ano {
+    text-align: center;
+}
+
+li img {
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+}

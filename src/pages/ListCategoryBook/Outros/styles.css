@@ -1,0 +1,38 @@
+.searchCss {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.searchCss button {
+    width: 50px;
+    height: var(--value-height-input);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-head-background);
+    border: none;
+    cursor: pointer;
+}
+
+.searchCss button img{
+    width: 70%;
+    height: 70%;
+}
+
+.pbodyList {
+    width: 80%;
+    margin: auto;   
+}
+
+.pbodyList .backgroundList2 {
+    background-color: transparent;
+    min-height: 24px;
+}
+
+.ano2,
+.author2,
+.download2 {
+    text-align: center;
+    padding: 0 7px;
+}

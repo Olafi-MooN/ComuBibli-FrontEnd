@@ -1,0 +1,68 @@
+.home {
+    width: 100%;
+    background-image: url('../../assets/images/backgroundLivro.svg');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.pbody {
+    width: 80%;
+    margin: auto;
+    height: 85vh;
+}
+
+.texto {
+    z-index: 10;
+}
+
+.pbody .texto h1 {
+    padding-top: 5vh;
+    font-size: 7.2rem;
+    font-weight: bold;
+}
+
+.pbody .texto h3 {  
+    padding-top: 2vh;
+    font-size: 3.6rem;
+    font-weight: 300;
+}
+
+.pbody h2 {  
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-text-realce);
+    position: absolute;
+    bottom: 20%;
+}
+
+#background{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 60%;
+    max-height: 60%;
+}
+
+@media (max-width: 700px){
+    html {
+        width: 100%;
+    }
+    .menuHead {
+        font-size: 30%;
+    }
+
+    .textoHead ul li a button{
+        width: 13rem;
+        border-radius: 10rem;
+        font-size: 1.3rem;
+    }
+
+    .textoHead ul {
+        display: flex;
+        align-items: center;
+        width: 60%;
+    }
+    .pbody h2 {  
+        bottom: 5%;
+    }
+}

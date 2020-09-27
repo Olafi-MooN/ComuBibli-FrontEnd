@@ -1,0 +1,58 @@
+:root {
+    font-size: 60%;
+
+    --color-background: #F0F0F7;
+    --color-head-background: #36C2D6;
+    --color-head-text: #FFFFFF;
+    --color-text-login: #36C2D6;
+    --color-btn-login: #000000;
+    --color-btn-create: #FFFFFF;
+    --color-text-realce: #36C2D6;
+    --color-block-category: rgba(54, 194, 214, 0.29);
+    --value-height-input: 36px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+    background: var(--color-background);
+}
+
+html {
+    width: 100%;
+}
+
+body,
+input,
+text,
+button {
+    font: 500 1.6rem Barlow;
+}
+
+@media (min-width: 700px){
+    :root{
+        font-size: 62.7%;
+    }
+}
+
+.bookNull {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color:#00000091;
+    height: 40vh;
+    font-size: 4rem;
+}
+
+@media (max-width: 600px){
+    :root{
+        font-size: 52.7%;
+    }
+}

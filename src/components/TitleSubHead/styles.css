@@ -1,0 +1,32 @@
+.title.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10%;
+    flex-wrap: wrap;
+}
+
+.searchCss input {
+    width: 19rem;
+}
+
+.title h2 {
+    width: 50%;
+}
+
+@media (max-width: 700px){
+    .title.search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 10%;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .title h2 {
+        width: 100%;
+    }
+}
