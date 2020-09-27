@@ -23,7 +23,7 @@ function MenuHead() {
         setImageURL(response.profileObj.imageUrl);
         setId(response.profileObj.googleId);
         console.log('=====================================')
-        console.log('response.profileObj.name')
+        console.log(response.profileObj.name)
         console.log('=====================================')
 
         console.log(nomeUser, emailUser, imageURL, id);
