@@ -55,6 +55,7 @@ function MenuHead() {
             <li> <GoogleLogin
                 className='Entrar com Google'
                 clientId="838048300980-vufd2hoj94njvl9ttmsoij1sg4alf1if.apps.googleusercontent.com"
+                scope="https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile"
                 buttonText="Entrar com Google"
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle} /></li>)
