@@ -44,8 +44,8 @@ function ListBooks() {
                 {books.length === 0? <div className="bookNull">Nenhum documento adicionado</div>: books.map((item: any) => {
                     return (
                         <BlockList
-                            nameBook={item.autorBook}
-                            ano={item.dateBook} author={item.nameBook}
+                            nameBook={item.nameBook}
+                            ano={item.dateBook} author={item.autorBook}
                             link="/" key={item} />)
                 })}
 
