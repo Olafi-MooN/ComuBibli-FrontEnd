@@ -52,7 +52,7 @@ function MenuHead() {
             return(
             <li> <GoogleLogin
                 className='Entrar com Google'
-                clientId="838048300980-jk6kihfhrsoprc5vpcp2e48q97c55ieh.apps.googleusercontent.com"
+                clientId="838048300980-4rlf49vq8f2d41k7rkrprcrr3bj17sb6.apps.googleusercontent.com"
                 buttonText="Entrar com Google"
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle} /></li>)
