@@ -45,7 +45,7 @@ function ListBooks() {
                         <BlockList
                             nameBook={item.nameBook}
                             ano={item.dateBook} author={item.autorBook}
-                            link="/" key={item} />)
+                            link={item.fileBook} key={item} />)
                 })}
             </div>
         </div>
