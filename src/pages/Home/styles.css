@@ -66,3 +66,30 @@
         bottom: 5%;
     }
 }
+
+
+@media (max-width: 700px){
+
+    .pbody .texto h1 {
+        padding-top: 5vh;
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    
+    .home {
+        width: 100%;
+        background-image: none;
+    }
+
+    .pbody h2 {
+        position: relative;
+        margin: 30px 0;
+    }
+}
+
+@media (max-height: 700px){
+    .pbody h2 {
+        position: relative;
+        margin: 30px 0;
+    }
+}
