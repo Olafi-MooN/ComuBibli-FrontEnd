@@ -50,13 +50,13 @@ function MenuHead() {
             )
         } else {
             return(
-            // <li> <GoogleLogin
-            //     className='Entrar com Google'
-            //     clientId="838048300980-jk6kihfhrsoprc5vpcp2e48q97c55ieh.apps.googleusercontent.com"
-            //     buttonText="Entrar com Google"
-            //     onSuccess={responseGoogle}
-            //     onFailure={responseGoogle} /></li>)
-            <div></div> )
+            <li> <GoogleLogin
+                className='Entrar com Google'
+                clientId="838048300980-jk6kihfhrsoprc5vpcp2e48q97c55ieh.apps.googleusercontent.com"
+                buttonText="Entrar com Google"
+                onSuccess={responseGoogle}
+                onFailure={responseGoogle} /></li>)
+            
         }
     }
 
