@@ -18,17 +18,18 @@ function MenuHead() {
     const responseGoogle = async (response: any) => {
         console.log(response.profileObj)
 
-        setNomeUser(response.profileObj.name);
-        setEmailUser(response.profileObj.email);
-        setImageURL(response.profileObj.imageUrl);
-        setId(response.profileObj.googleId);
+        await setNomeUser(response.profileObj.name);
+        await setEmailUser(response.profileObj.email);
+        await setImageURL(response.profileObj.imageUrl);
+        await setId(response.profileObj.googleId);
         console.log('=====================================')
         console.log(response.profileObj.name)
+        console.log(nomeUser)
         console.log('=====================================')
 
         console.log(nomeUser, emailUser, imageURL, id);
 
-        axios.post("insertUser", {
+        await axios.post("insertUser", {
             nomeUser: response.profileObj.name,
             emailUser: response.profileObj.email,
             imageURL: response.profileObj.imageUrl
@@ -36,10 +37,10 @@ function MenuHead() {
             console.log(res)
         })
 
-        localStorage.setItem('nameUser', response.profileObj.name);
-        localStorage.setItem('emailUser', response.profileObj.email);
-        localStorage.setItem('idUser', response.profileObj.googleId);
-        localStorage.setItem('imageURL', response.profileObj.imageUrl);
+        await localStorage.setItem('nameUser', response.profileObj.name);
+        await localStorage.setItem('emailUser', response.profileObj.email);
+        await localStorage.setItem('idUser', response.profileObj.googleId);
+        await localStorage.setItem('imageURL', response.profileObj.imageUrl);
 
         window.location.reload();
     }
