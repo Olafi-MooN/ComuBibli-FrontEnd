@@ -16,20 +16,17 @@ function MenuHead() {
     const [imageURL, setImageURL] = useState('');
 
     const responseGoogle = async (response: any) => {
-        console.log(response.profileObj)
 
-        await setNomeUser(response.profileObj.name);
-        await setEmailUser(response.profileObj.email);
-        await setImageURL(response.profileObj.imageUrl);
-        await setId(response.profileObj.googleId);
-        console.log('=====================================')
-        console.log(response.profileObj.name)
-        console.log(nomeUser)
-        console.log('=====================================')
+        setNomeUser(response.profileObj);
+        setEmailUser(response.profileObj);
+        setImageURL(response.profileObj);
+        setId(response.profileObj);
 
-        console.log(nomeUser, emailUser, imageURL, id);
+        console.log(response)
 
-        await axios.post("insertUser", {
+        //console.log(nomeUser, emailUser, imageURL, id);
+
+        axios.post("insertUser", {
             nomeUser: response.profileObj.name,
             emailUser: response.profileObj.email,
             imageURL: response.profileObj.imageUrl
@@ -37,10 +34,10 @@ function MenuHead() {
             console.log(res)
         })
 
-        await localStorage.setItem('nameUser', response.profileObj.name);
-        await localStorage.setItem('emailUser', response.profileObj.email);
-        await localStorage.setItem('idUser', response.profileObj.googleId);
-        await localStorage.setItem('imageURL', response.profileObj.imageUrl);
+        localStorage.setItem('nameUser', response.profileObj.name);
+        localStorage.setItem('emailUser', response.profileObj.email);
+        localStorage.setItem('idUser', response.profileObj.googleId);
+        localStorage.setItem('imageURL', response.profileObj.imageUrl);
 
         window.location.reload();
     }
@@ -55,8 +52,7 @@ function MenuHead() {
             return(
             <li> <GoogleLogin
                 className='Entrar com Google'
-                clientId="838048300980-vufd2hoj94njvl9ttmsoij1sg4alf1if.apps.googleusercontent.com"
-                scope="https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile"
+                clientId="838048300980-jk6kihfhrsoprc5vpcp2e48q97c55ieh.apps.googleusercontent.com"
                 buttonText="Entrar com Google"
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle} /></li>)

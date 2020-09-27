@@ -39,7 +39,7 @@ button {
         font-size: 62.7%;
     }
 }
-
+.alertaCategory,
 .bookNull {
     display: flex;
     width: 80%;
