@@ -24,7 +24,7 @@ function MenuHead() {
 
         console.log(response)
 
-        //console.log(nomeUser, emailUser, imageURL, id);
+        console.log(nomeUser, emailUser, imageURL, id);
 
         axios.post("insertUser", {
             nomeUser: response.profileObj.name,
