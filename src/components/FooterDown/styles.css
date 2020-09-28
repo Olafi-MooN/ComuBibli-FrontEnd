@@ -2,11 +2,13 @@
     width: 100%;
     position: relative;
     bottom: 0;
-    background-color: rgba(34, 32, 32, 0.816);
+    background-color: rgba(0,0,32);
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    height: 16vh;
+    max-height: 84px;
 }
 
 .backgroundFooter div p {
