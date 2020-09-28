@@ -49,9 +49,6 @@ function ListBooks() {
                             link={item.fileBook} key={item} />)
                 })}
             </div>
-            <div className="FooterDown">
-                <FooterDown />
-            </div>
         </div>
     )
 }
