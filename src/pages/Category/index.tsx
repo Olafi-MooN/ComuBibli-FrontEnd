@@ -48,10 +48,6 @@ function Category() {
             </TitleSubHead>
 
             {verificarLogin()}
-
-            <div className="footerDownCategory">
-                <FooterDown />
-            </div>
         </div>
     )
 }
