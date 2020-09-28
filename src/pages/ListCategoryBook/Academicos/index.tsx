@@ -9,7 +9,6 @@ import './styles.css';
 import TitleSubHead from '../../../components/TitleSubHead';
 
 import axios from '../../../services/index';
-import FooterDown from '../../../components/FooterDown';
 
 function ListBooks() {
 
