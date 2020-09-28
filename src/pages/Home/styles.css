@@ -31,13 +31,14 @@
 .attention {
     background: #000020;
     padding: 5px;
-    border-radius: 50%;
+    border-radius:20px;
     transition: 800ms;
     width: 40%;
+    text-align: center;
 }
 
 .attention:hover{
-    background: #00002094;
+    background: #3636c494;
     
 }
 
