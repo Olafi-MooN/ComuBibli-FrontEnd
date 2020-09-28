@@ -10,8 +10,9 @@
 }
 
 .backgroundFooter div p {
-    text-align: left;
+    text-align: center;
     color: var(--color-head-text);
+    font-size: 1rem;
 }
 
 .backgroundFooter div img {

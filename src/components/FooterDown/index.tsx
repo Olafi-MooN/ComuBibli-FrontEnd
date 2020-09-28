@@ -9,7 +9,6 @@ function FooterDown () {
     return(
         <div className="backgroundFooter">
             <div className="paragrafo">
-                <p>Criado por</p>
                 <p>Alef Santos Soares</p>
                 <p>CopyRight &copy;</p>
             </div>
