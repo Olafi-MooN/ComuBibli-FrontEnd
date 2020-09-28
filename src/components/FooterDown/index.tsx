@@ -8,12 +8,12 @@ import './styles.css';
 function FooterDown () {
     return(
         <div className="backgroundFooter">
-            <div>
+            <div className="paragrafo">
                 <p>Criado por</p>
                 <p>Alef Santos Soares</p>
                 <p>CopyRight &copy;</p>
             </div>
-            <div>
+            <div className="imgFooter">
                 <img src={developerPlus} alt=""/>
             </div>
         </div>

@@ -19,9 +19,13 @@
     height: 40%;
 }
 
-.backgroundFooter div {
+.backgroundFooter .imgFooter {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 20%;
+}
+
+.paragrafo {
     width: 20%;
 }
