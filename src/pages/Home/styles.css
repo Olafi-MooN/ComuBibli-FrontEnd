@@ -38,7 +38,7 @@
 }
 
 .attention:hover{
-    background: #3636c494;
+    background: #315;
     
 }
 
@@ -110,6 +110,9 @@
         font-size: 2rem;
         font-weight: 300;
     }
+    .attention {
+        width: 80%;
+    }   
 }
 
 @media (max-width: 400px){
@@ -136,4 +139,5 @@
         position: relative;
         margin: 30px 0;
     }
+    
 }
