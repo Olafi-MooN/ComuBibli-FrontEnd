@@ -1,0 +1,140 @@
+.sobreInfo {
+    width: 100%;
+    height: 100vh;
+    min-height: 700px;
+    /* background: rgb(174,238,221);
+background: radial-gradient(circle, rgba(174,238,221,1) 0%, var(--color-text-realce) 100%);     */
+}
+
+.inline{
+    width: 85%;
+    margin: auto;
+    min-height: 500px;
+}
+
+.sobreInfo .info {
+    width: 95%;
+    margin: 5% auto;
+}
+
+.sobreInfo .info h2 {
+    font-size: 5rem;
+    color: var(--color-text-realce);
+}
+
+.sobreInfo .info p {
+    font-size: 2rem;
+}
+
+
+.sobreInfo .infoP {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.createProjectName {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.createProjectName .info {
+    padding-left: 20px;
+    margin: 0 20px 0 0;
+    text-align: right;
+}
+
+.createProjectName .info p{
+    margin-top: 2rem;
+}
+
+.socialNetwork {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.socialNetwork a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 20%;
+    margin-top: 10%;
+}
+
+.socialNetwork a img{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+.createProjectName img{
+    border-radius: 50%;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.compartilhe {
+    text-align: left;
+}
+
+.FooterDown {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 700px) {
+    .sobreInfo {
+        min-width: 500px;
+    }
+
+    .createProjectName {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .createProjectName .info {
+        padding-left: 20px;
+        margin: 20px 20px 0 0;
+        text-align: left;
+    }
+
+    .sobreInfo .info h2 {
+        font-size: 3rem;
+        color: var(--color-text-realce);
+    }
+    .sobreInfo .info p {
+        font-size: 1.5rem;
+    }
+
+    .developer {
+        display: flex;
+        width: 100%;
+    }
+
+    .developer img{
+        width: 30%;
+        height: 30%;
+    }
+
+    .socialNetwork {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .socialNetwork a{
+        width: 200px;
+    }
+
+}
+
+@media (max-width: 416px) {
+    .sobreInfo {
+        min-width: 416px;
+    }
+
+}

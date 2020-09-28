@@ -75,10 +75,28 @@
     height: 60px;
 }
 
+.backgroundList li {
+    font-size: 100%;
+}
 
 @media (max-width: 700px){
- .menuHead .logo img {
+    .menuHead .logo img {
     width: 20%;
-    height: 20%;
+    height: 20%;    
+    }   
 }
-}
+
+@media (max-width: 416px){
+    .menuHead{
+        width: 416px;
+    }
+    .menuHead .logo img {
+        display: none;   
+    }
+    .listBooks{
+        width: 416px;
+    }
+    .backgroundList li {
+        font-size: 100%;
+    }
+}   

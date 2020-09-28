@@ -16,17 +16,18 @@
 }
 
 @media (max-width: 700px){
-    .title.search {
+    .title h2 {
+        width: 100%;
+        padding: 20px !important;
+    }
+    .searchCss {
+        width: 100% !important;
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        padding: 0 10%;
-        flex-wrap: wrap;
-        margin-bottom: 50px;
+        padding-block-end: 20px;
     }
-    .title h2 {
-        width: 100%;
+    .title.search {
+        min-width: 416px;
     }
 }

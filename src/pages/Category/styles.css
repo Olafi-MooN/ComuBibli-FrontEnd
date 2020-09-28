@@ -32,50 +32,10 @@ a {
     .containerCategory {
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
+        min-width: 416px;
     }
 }
 
 .menuMobile img {
     margin-right: 10%;
-}
-
-@media (max-width: 400px){
-    .title.search {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 90%;
-        flex-direction: column;
-        padding: 0;
-        margin: auto;
-    }
-    .inputPersonalite{
-        width: 70px;
-        margin-top: 37px;
-    }
-
-    .searchCss {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    input[type="button"] {
-        width: 50% !important;
-    }
-
-    .title h2 {
-        width: 100%;
-        padding: 5px;
-        margin-top: 20px;
-    }
-
-    img[src="/static/media/book.6a394870.svg"] {
-        max-width: 50px;
-        max-height: 50px;
-        padding: 0;
-        position: absolute;
-        left: 100px;
-        top: 200px
-    }
 }

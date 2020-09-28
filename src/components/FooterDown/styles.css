@@ -32,3 +32,10 @@
 .paragrafo {
     width: 20%;
 }
+
+
+@media (max-width: 416px){
+    .backgroundFooter {
+        width: 416px;
+    }
+}

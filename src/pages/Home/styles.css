@@ -69,11 +69,24 @@
 }
 
 
+@media (max-height: 500px){
+    .pbody .texto h1 {
+        padding-top: 5vh;
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    .pbody .texto h3 {  
+        padding-top: 2vh;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+}
+
 @media (max-width: 700px){
 
     .pbody .texto h1 {
         padding-top: 5vh;
-        font-size: 5rem;
+        font-size: 3.3rem;
         font-weight: bold;
     }
     
