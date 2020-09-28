@@ -17,3 +17,10 @@
     width: 60%;
     height: 40%;
 }
+
+.backgroundFooter div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
