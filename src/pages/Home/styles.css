@@ -31,12 +31,14 @@
 .attention {
     background: #000020;
     padding: 5px;
-    border-radius: 10%;
+    border-radius: 50%;
     transition: 800ms;
+    width: 40%;
 }
 
 .attention:hover{
     background: #00002094;
+    
 }
 
 .pbody h2 {  
