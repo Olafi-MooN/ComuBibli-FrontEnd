@@ -8,6 +8,7 @@ import bookImg from '../../assets/images/book.svg';
 import './styles.css'
 import Modal from '../../components/Modal';
 import { Link } from 'react-router-dom';
+import FooterDown from '../../components/FooterDown';
 
 function Category() {
     const [isModalVisible, setModalVisible] = useState(false);
@@ -47,6 +48,8 @@ function Category() {
                 </TitleSubHead>
 
                 {verificarLogin()}
+
+                <FooterDown/>
         </div>
     )
 }

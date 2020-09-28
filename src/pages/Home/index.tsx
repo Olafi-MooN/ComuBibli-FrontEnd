@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import FooterDown from '../../components/FooterDown';
 
 import MenuHead from '../../components/MenuHead';
 
@@ -17,6 +18,7 @@ function Home() {
                 </div>
                 <Link to="/category"><h2>Acessar a categoria de livros</h2></Link>
             </div>
+            <FooterDown/>
         </div>
     )
 }

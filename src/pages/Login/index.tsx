@@ -1,10 +1,15 @@
 import React from 'react';
+import FooterDown from '../../components/FooterDown';
 
 import './styles.css'
 
 function Login() {
     return (
-        <h1>EM MANUTENÇÃO AGUARDE</h1>
+        <div>
+            <h1>EM MANUTENÇÃO AGUARDE</h1>
+        <FooterDown/>
+        </div>
+        
     )
 }
 

@@ -1,0 +1,19 @@
+.backgroundFooter {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: var(--color-head-background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundFooter div p {
+    text-align: left;
+    color: var(--color-head-text);
+}
+
+.backgroundFooter div img {
+    width: 60%;
+    height: 40%;
+}
