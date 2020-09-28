@@ -3,7 +3,7 @@ import {BrowserRouter, Route} from 'react-router-dom';
 
 import Category from './pages/Category';
 import Landing from './pages/Home';
-import Login from './pages/Login';
+import Login from './pages/About';
 
 
 import Ebooks from './pages/ListCategoryBook/Ebooks';
@@ -22,7 +22,7 @@ function Routes(){
         <BrowserRouter>
             <Route path="/" exact component={Landing}/>
             <Route path="/category" component={Category}/>
-            <Route path="/login" component={Login}/>
+            <Route path="/Sobre" component={Login}/>
 
             <Route path="/listbooks/Ebooks" component={Ebooks}/>
             <Route path="/listbooks/academicos" component={Academicos}/>

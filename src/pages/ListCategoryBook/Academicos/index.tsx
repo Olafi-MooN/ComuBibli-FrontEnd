@@ -9,6 +9,7 @@ import './styles.css';
 import TitleSubHead from '../../../components/TitleSubHead';
 
 import axios from '../../../services/index';
+import FooterDown from '../../../components/FooterDown';
 
 function ListBooks() {
 
@@ -47,6 +48,9 @@ function ListBooks() {
                             ano={item.dateBook} author={item.autorBook}
                             link={item.fileBook} key={item} />)
                 })}
+            </div>
+            <div className="FooterDown">
+                <FooterDown />
             </div>
         </div>
     )

@@ -18,7 +18,9 @@ function Home() {
                 </div>
                 <Link to="/category"><h2>Acessar a categoria de livros</h2></Link>
             </div>
-            <FooterDown/>
+            <div className="footerDownCategory">
+                <FooterDown />
+            </div>
         </div>
     )
 }

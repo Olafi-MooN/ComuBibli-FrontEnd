@@ -55,6 +55,7 @@ background: radial-gradient(circle, rgba(174,238,221,1) 0%, var(--color-text-rea
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    padding: 4px;
 }
 
 
@@ -62,14 +63,19 @@ background: radial-gradient(circle, rgba(174,238,221,1) 0%, var(--color-text-rea
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 20%;
-    margin-top: 10%;
+    width: auto;
+    margin-right: 5%;
+    min-width: 15%;
+    color: var(--color-text-realce);
+}
+.socialNetwork a:hover {
+    color: black;
 }
 
 .socialNetwork a img{
     width: 50px;
     height: 50px;
-    margin-left: 30px;
+    margin-left: 3%;
 }
 .createProjectName img{
     border-radius: 50%;
@@ -81,15 +87,10 @@ background: radial-gradient(circle, rgba(174,238,221,1) 0%, var(--color-text-rea
     text-align: left;
 }
 
-.FooterDown {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
 
 @media (max-width: 700px) {
     .sobreInfo {
-        min-width: 500px;
+        min-width: 600px;
     }
 
     .createProjectName {
@@ -114,6 +115,7 @@ background: radial-gradient(circle, rgba(174,238,221,1) 0%, var(--color-text-rea
     .developer {
         display: flex;
         width: 100%;
+        align-items: center;
     }
 
     .developer img{

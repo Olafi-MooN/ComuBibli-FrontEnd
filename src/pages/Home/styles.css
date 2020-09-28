@@ -66,6 +66,22 @@
     .pbody h2 {  
         bottom: 5%;
     }
+    .pbody .texto h1 {
+        padding-top: 5vh;
+        font-size: 3.3rem;
+        font-weight: bold;
+    }
+    
+    .home {
+        width: 100%;
+        background-image: none;
+    }
+
+    .pbody h2 {
+        position: relative;
+        margin: 30px 0;
+    }
+
 }
 
 
@@ -82,24 +98,24 @@
     }
 }
 
-@media (max-width: 700px){
-
+@media (max-width: 400px){
     .pbody .texto h1 {
         padding-top: 5vh;
-        font-size: 3.3rem;
+        font-size: 5rem;
         font-weight: bold;
+        width: 400px;
+    }
+    .pbody .texto h3 {  
+        padding-top: 2vh;
+        font-size: 2rem;
+        font-weight: 300;
+        width: 300px;
+    }
+    .pbody {
+        max-height: 200px;
     }
     
-    .home {
-        width: 100%;
-        background-image: none;
-    }
-
-    .pbody h2 {
-        position: relative;
-        margin: 30px 0;
-    }
-}
+}  
 
 @media (max-height: 700px){
     .pbody h2 {

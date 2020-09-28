@@ -30,14 +30,14 @@ function Sobre() {
     
                 </div>
                 <div className="socialNetwork">
-                    <a href="/">INSTAGRAM <img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-11.png" alt="logoInstagram" /></a>
-                    <a href="/">GIT HUB <img src="https://i.pinimg.com/originals/b1/5e/ed/b15eedbdafbbdbca3249e3942f4faf3b.png" alt="logoGitHub" /></a>
+                    <a href="/https://www.instagram.com/_developerplus/">INSTAGRAM <img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-11.png" alt="logoInstagram" /></a>
+                    <a href="/https://github.com/Olafi-MooN">GIT HUB <img src="https://i.pinimg.com/originals/b1/5e/ed/b15eedbdafbbdbca3249e3942f4faf3b.png" alt="logoGitHub" /></a>
                 </div>
             </div>
 
 
 
-            <div className="FooterDown">
+            <div className="footerDownCategory">
                 <FooterDown />
             </div>
 
